@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body {
+    background-image: url(images/bg.jpg);
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+}
+li {
+    padding: 0px;
+    float: left;
+    border-right: 1px solid white;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover:not(.active) {
+    background-color: grey;
+}
+.active {
+    background-color: rgb(74, 141, 74);
+}
+h1 {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 25%;
+    margin-right: 37.5%;
+    margin-left: 37.5%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: green;
+}
+h2 {
+    background-color: rgb(0, 0, 0, 0.75);
+    color: green;
+    padding: 30px;    
+}
+hr {
+    color: green;
+}
+#para1 {
+    max-width: 40%;
+    min-width: 1%;
+    float: left;
+    margin: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+    background-color: rgba(218, 231, 218, 0.25);
+    padding: 25px;
+}
+#para2 {
+    max-width: 40%;
+    min-width: 1%;
+    float: right;
+    margin: 40px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: rgba(218, 231, 218, 0.25);
+    padding: 25px;
+}
+#about {
+    margin: 40px;
+    border-radius: 50px;
+    background-color: rgba(218, 231, 218, 0.25);
+    padding: 30px;
+}
+p { 
+    background-color: rgb(0, 0, 0, 0.75);
+    color: green;
+    padding: 30px;
+}
